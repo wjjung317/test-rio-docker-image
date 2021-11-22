@@ -1,0 +1,110 @@
+## Python modules for Rio Tinto DS Project (as of 19th Nov. 2021)
+## Python 3.8.5
+## $ pip install --upgrade pip
+
+
+## (1) python packages management
+wheel
+
+
+
+
+## (2) access to Greenplum, PostgreSQL from JupyterNotebook
+sqlalchemy==1.3.24
+psycopg2-binary  # in case of installation error, try this: $ pip install psycopg2-binary
+sql_magic
+ipython-sql==0.3.9
+pgspecial
+
+
+
+
+## (3) data manipulations and operations
+numpy
+pandas
+
+
+
+
+## (4) modeling (* maybe not for the phase 1, but for later)
+scikit-learn
+scikit-optimize
+scipy
+statsmodels
+xgboost
+networkx
+
+
+## (5) time series analysis (* maybe not for the phase 1, but for later)
+gluonts
+prophet
+pmdarima
+spectrum
+
+
+
+
+## (6) explanations of machine learning models (* maybe not for the phase 1, but for later)
+lime
+shap
+
+
+
+
+## (7) scheduling optimization (* maybe not for the phase 1, but for later)
+docplex
+mip
+pulp
+pyomo
+pygad
+pymc3
+
+
+
+
+## (8) deep learning (* maybe not for the phase 1, but for later)
+tensorflow  # (for GPU) tensorflow-gpu, horovod
+Keras-Applications
+Keras-Preprocessing
+tensorboard
+torch
+torchvision
+mxnet
+
+
+
+
+## (9) visualization
+matplotlib
+seaborn
+jupyter-dash
+dash
+plotly
+ipykernel
+ipython
+ipywidgets
+holoviews
+graphviz
+
+
+
+
+## (10) miscellaneous
+pytools
+shutils
+pathlib
+six
+zipp
+PyYAML
+py
+datetime
+python-dateutil
+pytz
+future
+
+
+
+
+## (11) KubeFlow pipelines (* just in case KALE is not installed already by default)
+kubeflow-kale
+jupyterlab
