@@ -1,1 +1,0 @@
-# test-rio-docker-image
