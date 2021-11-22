@@ -1,4 +1,3 @@
-## Python modules for Rio Tinto DS Project (as of 19th Nov. 2021)
 ## Python 3.8.5
 ## $ pip install --upgrade pip
 
